@@ -96,5 +96,3 @@ thefuck:
 		( which pip > /dev/null && sudo pip install thefuck ) || \
 		echo "Requires either brew or pip to install 'thefuck'"
 
-docker:
-	docker build -t jmervine/zshrc:latest .
